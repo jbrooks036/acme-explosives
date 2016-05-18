@@ -1,0 +1,11 @@
+{
+    "products": [{
+        "fairy_sparklers": {
+            "id": 0,
+            "type": 01,
+            "name": "Fairy Sparklers",
+            "description": "Multi-colored sparklers that are safe for any age."
+        }
+    }]
+}
+
