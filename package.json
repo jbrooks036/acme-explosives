@@ -1,0 +1,19 @@
+{
+  "name": "acme-explosives",
+  "version": "1.0.0",
+  "description": "",
+  "main": "js/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbrooks036/acme-explosives.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jbrooks036/acme-explosives/issues"
+  },
+  "homepage": "https://github.com/jbrooks036/acme-explosives#readme"
+}

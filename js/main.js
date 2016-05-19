@@ -7,8 +7,10 @@ $(document).ready(function () {
   console.log("menuChoice = ", menuChoice);
 
   $.ajax({
-    url: "categories.json"
-  }).done(function(categories){
+    url: "data/categories.json"
+  }).done(function(categoriesObject){
+    console.log("categoriesObject after ajax call = ", categoriesObject);
+    var categories = categoriesObject.categories;
     console.log("categories after ajax call = ", categories);
   });
 });

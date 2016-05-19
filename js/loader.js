@@ -5,11 +5,13 @@ var explosives = (function (explosives) {
 
   var categoriesArray = [];
 
+  console.log("now inside of loader.js");
 
   explosives.loadCategories = function (callback) {
     var categoriesLoader = XMLHttpRequest();
 
     categoriesLoader.addEventListener("load", function () {
+      console.log("now inside of addingEventListener inside of loader.js");
 
       categoriesArray = JSON.parse(this.responseText).categories;
 
@@ -18,7 +20,7 @@ var explosives = (function (explosives) {
   
     });
 
-    categoriesLoader.open("GET", "categories.json");
+    categoriesLoader.open("GET", "js/categories.json");
     categoriesLoader.send();
   };
 
